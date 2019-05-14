@@ -1,0 +1,113 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #424249;
+    height: 20vh;
+    margin: none;
+}
+
+.logo-line {
+    display: flex;
+    margin-right: 45vw;
+    color: white;
+    align-items: center;
+    font-family: "Righteous";
+    font-size: 5vh;
+    width: 50vw;
+}
+
+.piggy {
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+.total {
+    color: white;
+    width: 50vw;
+    font-family: "Roboto";
+    font-size: 4vh;
+    margin-right: 5vw;
+}
+
+section {
+    display: flex;
+    margin-top: 10vh;
+    justify-content: space-around;
+}
+
+.monthly-expenses-container {
+    /* height: 35vh; */
+    background-color: #efe8e2;
+    width: 34vw;
+    margin-left: 10vw;
+    font-family: "Righteous";
+    font-size: 3.5vh;
+    color: #424249;
+}
+
+.add-bill-container {
+    height: 35vh;
+    background-color: #54d2e5;
+    width: 34vw;
+    margin-right: 10vw;
+    font-family: "Righteous";
+    font-size: 3.5vh;
+    color: #424249;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.section_header {
+    /* padding-top: 2vh; */
+    margin-left: 3vw;
+    margin-bottom: 0
+}
+
+button {
+    width: 30vw;
+    height: 6vh;
+    color: white;
+    background-color: #424249;
+    border: none;
+    border-radius: 5px;
+    font-family: "Righteous";
+    font-size: 3vh;
+    align-self: center;
+}
+
+ul {
+    list-style-type: none;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3vw;
+}
+
+.bill_input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+h5{
+    margin: 15px;
+}
+
+input {
+    color: #424249;
+    padding: .5vw;
+    /* padding-bottom: 2vh; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  */
+    text-align: center;
+    font-size: 50%;
+}
